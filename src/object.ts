@@ -16,7 +16,7 @@ export const isObject = (o: any) => {
 
 /**
  * 深拷贝
- * @param o
+ * @param obj
  */
 
 export const deepClone = (obj: any) => {

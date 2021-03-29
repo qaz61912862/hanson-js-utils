@@ -25,7 +25,7 @@ if (program.versions) {
 }
  
 function publish() {
-  shelljs.sed('-i', '"name": "ktools"', '"name": "@kagol/ktools"', targetFile); // 修改包名
+  shelljs.sed('-i', '"name": "hanson"', '"name": "@hanson/hanson-js-utils"', targetFile); // 修改包名
   shelljs.sed('-i', `"version": "${currentVersion}"`, `"version": "${newVersion}"`, targetFile); // 修改版本号
   shelljs.cd('dist');
   shelljs.exec('npm publish'); // 发布
