@@ -4,11 +4,16 @@
 
 ## API
 
+### Object类
+
 - isObject             判断是否为对象
 - isEmpty              判断是否为空
 - deepClone            深拷贝
 - deepDeleteEmptyValue 过滤对象空值
 
+### Date类
+
+- formatTime           格式化时间戳
 
 ## 打包
 
