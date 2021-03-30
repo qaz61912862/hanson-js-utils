@@ -34,10 +34,10 @@ npm i hanson-js-utils
 import { deepDeleteEmptyValue, isEmpty, deepClone, isObject, formatTime } from 'hanson-js-utils'
 
 console.log(deepDeleteEmptyValue({a: 1, b: '', c: null, d: false})) // {a: 1, d: false}
-console.log(isEmpty(''))
-console.log(deepClone({a: 1}))
-console.log(isObject(123))
-console.log(isObject({}))
-console.log(formatTime(new Date()));
-console.log(formatTime(new Date(), 'yyyy-MM-dd'));
+console.log(isEmpty('')) // true
+console.log(deepClone({a: 1})) // {a: 1}
+console.log(isObject(123)) // false
+console.log(isObject({})) // true
+console.log(formatTime(new Date())); // 2021-03-30 18:00:00
+console.log(formatTime(new Date(), 'yyyy-MM-dd')); // 2021-03-30
 
