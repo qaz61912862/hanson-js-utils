@@ -1,6 +1,6 @@
 {
   "name": "hanson-js-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "hanson-js-utils",
   "browser": "dist/index.js",
   "main": "index.js",

@@ -1,5 +1,1 @@
-import deepDeleteEmptyValue from './object';
- 
-export {
-  deepDeleteEmptyValue,
-};
+export * from './object';

@@ -37,7 +37,7 @@ export const deepClone = (obj: any) => {
  * 删除对象空值
  * @param o
  */
-const deepDeleteEmptyValue = (o: any) => {
+export const deepDeleteEmptyValue = (o: any) => {
   if (!isObject(o)) {
     return o;
   }
@@ -56,5 +56,3 @@ const deepDeleteEmptyValue = (o: any) => {
   }
   return newVal;
 }
-
-export default deepDeleteEmptyValue;
