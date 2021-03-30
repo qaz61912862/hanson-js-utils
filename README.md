@@ -23,6 +23,14 @@
 npm run build
 ```
 
+
+## 打包并自动发布到npm
+
+``` javascript
+npm run buildAndPublish
+```
+
+
 ## 安装
 
 ``` javascript
