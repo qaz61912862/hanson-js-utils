@@ -15,7 +15,6 @@
 
 - formatTime           格式化时间戳
 
-### 暂未搭建本地服务器预览
 
 ## 打包
 
@@ -28,6 +27,8 @@ npm run build
 ``` javascript
 npm i hanson-js-utils
 ```
+
+### 暂未搭建本地服务器预览
 
 
 ## 使用
