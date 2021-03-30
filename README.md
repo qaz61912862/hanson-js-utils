@@ -31,11 +31,13 @@ npm i hanson-js-utils
 ## 使用
 
 ``` javascript
-import { deepDeleteEmptyValue, isEmpty, deepClone, isObject } from 'hanson-js-utils'
+import { deepDeleteEmptyValue, isEmpty, deepClone, isObject, formatTime } from 'hanson-js-utils'
 
-console.log(deepDeleteEmptyValue({a: 1, b: '', c: null, d: false}))
+console.log(deepDeleteEmptyValue({a: 1, b: '', c: null, d: false})) // {a: 1, d: false}
 console.log(isEmpty(''))
 console.log(deepClone({a: 1}))
 console.log(isObject(123))
 console.log(isObject({}))
+console.log(formatTime(new Date()));
+console.log(formatTime(new Date(), 'yyyy-MM-dd'));
 
