@@ -15,6 +15,8 @@
 
 - formatTime           格式化时间戳
 
+## 暂未搭建本地服务器预览
+
 ## 打包
 
 ``` javascript
