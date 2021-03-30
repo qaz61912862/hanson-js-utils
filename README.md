@@ -23,3 +23,14 @@ npm i hanson-js-utils
 ```
 
 
+## 使用
+
+``` javascript
+import { deepDeleteEmptyValue, isEmpty, deepClone, isObject } from 'hanson-js-utils'
+
+console.log(deepDeleteEmptyValue({a: 1, b: '', c: null, d: false}))
+console.log(isEmpty(''))
+console.log(deepClone({a: 1}))
+console.log(isObject(123))
+console.log(isObject({}))
+
