@@ -23,6 +23,12 @@
 npm run build
 ```
 
+## 单元测试
+
+``` javascript
+npm test
+```
+
 
 ## 打包并自动发布到npm
 
