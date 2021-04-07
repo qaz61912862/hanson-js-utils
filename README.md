@@ -46,9 +46,9 @@ npm i hanson-js-utils
 
 
 
-## 使用
+## 使用(全局/按需引入)
 
-``` javascript(全局/按需引入)
+``` javascript
 
 import hansonJsUtils, { deepDeleteEmptyValue, isEmpty, deepClone, isObject, formatTime } from 'hanson-js-utils'
 
