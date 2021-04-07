@@ -1,11 +1,9 @@
-export * from './object';
-export * from './date';
-// let utils: any = {};
+import * as date from './date'
+import * as object from './object'
 
-// const modules = require.context('./modules/', true, /.ts$/);
+let utils: any = {
+  ...date,
+  ...object
+};
 
-// modules.keys().forEach(modulesKey => {
-//   utils['test'] = modules(modulesKey);
-// });
-
-// module.exports = utils;
+module.exports = utils;
